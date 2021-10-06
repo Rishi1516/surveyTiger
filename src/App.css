@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+
+/* .App-link {
+  color: #61dafb;
+} */
+
+.App .survey-main-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: white;
+  height: 35px;
+  width: 180px; 
+  margin: 15px; 
+  border: 2px solid #af5f46;
+  color: #af5f46;
+  border-radius: 2px;
+  font-weight: 900;
+}
+.App .survey-main-btn:hover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: #af5f46;
+  height: 35px;
+  width: 180px; 
+  margin: 15px; 
+  border: 2px solid #af5f46;
+  color: white;
+  border-radius: 2px;
+  font-weight: 900;
+}
+
+.App .survey-dropdown-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: white;
+  height: 35px;
+  width: 200px; 
+  margin: 15px; 
+  border: 2px solid #af5f46;
+  color: #af5f46;
+  border-radius: 3px;
+  font-weight: 900; 
+}
+.App .survey-dropdown-btn:hover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: #af5f46;
+  height: 35px;
+  width: 200px; 
+  margin: 15px; 
+  border: 2px solid #af5f46;
+  color: white;
+  border-radius: 3px;
+  font-weight: 900; 
+}
+
+.App .question-container{
+  /* border: 2px solid black; */
+  width: 400px;
+}
+
+.App .option-container{
+  border: 1px solid rgb(156, 156, 156);
+  border-radius: 3px;
+  height: 32px;
+  font-size: 11pt;
+  width:350px;
+}
+
+.App .option-btn{
+  border:none;
+  background-color: white;
+  border-radius: 3px;
+  height: 30px;
+  font-size: 13pt;
+  font-weight: bold;
+  color:black;
+  width: 25px;
+}
+.App .option-btn:hover{
+  border:none;
+  border-radius: 3px;
+  background-color: #af5f46;
+  height: 30px;
+  font-size: 13pt;
+  font-weight: bold;
+  color:white;
+  width: 25px;
+}
+
+.App .btn-grp{
+  display: flex;
+}
+
+.p-tag{
+  font-size:12pt;
+  display:flex; 
+  margin:3px 0px;
+} 
